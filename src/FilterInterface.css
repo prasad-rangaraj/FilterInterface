@@ -1,0 +1,68 @@
+.full-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.filter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px 10px 65px; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  .searchbox::placeholder{
+    font-style: italic;
+  }
+  
+  .filter-item .MuiFormControl-root {
+    width: 100%;
+  }
+  
+  .filter-item .MuiTextField-root {
+    width: 100%;
+  }
+  
+  .filter-container .MuiIconButton-root {
+    padding: 8px;
+  }
+
+  .filter-item .MuiOutlinedInput-root {
+    border-radius: 6px;
+    padding-right: 0px;
+  }
+  
+  .MuiFormControlLabel-root {
+    margin-right: 15px;
+  }
+  
+  .filter-container .MuiIconButton-root {
+    padding: 8px;
+    margin-left: 10px; 
+  }
+  
+  
+  .last-item{
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter-lastitem{
+    border-color: rgb(186, 188, 189);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 7px;
+    color:rgb(0, 0, 0);
+  }
+
+  .filter-item label{
+    color: rgb(187, 187, 187);
+  }
